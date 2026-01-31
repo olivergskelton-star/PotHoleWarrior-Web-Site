@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #fdfdfd;
+}
+
+header,
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffea00;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 50px;
+  max-width: 100px;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+nav a.active {
+  border-bottom: 2px solid #000;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #FFD500;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #FFA500;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #FFD500;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main,
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.subtitle {
+  color: #ccc;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.grid-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+footer,
+.site-footer {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* 🚧 Construction Banner */
+.construction-banner {
+  background-color: #FFD500;
+  color: #000;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 4px solid #000;
+  font-size: 1.1em;
+}
+
+
